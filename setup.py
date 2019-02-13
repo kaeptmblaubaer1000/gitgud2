@@ -37,4 +37,5 @@ setup(name='gitgud2',
           "Programming Language :: Python :: 2",
           "Programming Language :: Python :: 3",
           #TODO: Test supported versions and add them as classifiers
+      ]
 )
