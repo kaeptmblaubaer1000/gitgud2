@@ -63,3 +63,5 @@ Just add the `--super` argument to add more awesome.
 
 > **Warning:** The writer is not responsible for side effects of
     gitting gud or gitting rekt.
+
+This is a fork of [fsufitch/git-gud](https://github.com/fsufitch/git-gud).
