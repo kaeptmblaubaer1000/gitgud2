@@ -1,4 +1,7 @@
-import argparse, pyfiglet, sys
+import argparse
+import pyfiglet
+import sys
+
 
 class git(object):
     @staticmethod
@@ -15,7 +18,7 @@ class git(object):
     def fig(text):
         fig = pyfiglet.Figlet()
         return fig.renderText(text)
-    
+
     @staticmethod
     def gud():
         args = git.parse_args("good")
@@ -56,19 +59,18 @@ class git(object):
         name = args.name or "You"
         sup = args.super
         text = "{name} got a job in gitting #rekt!".format(name=name)
-        
+
         if sup:
             text = git.fig(text)
         print(text)
-    
+
     @staticmethod
     def money():
         args = git.parse_args("money")
         name = args.name or "You"
         sup = args.super
         text = "{name} got money!".format(name=name)
-        
+
         if sup:
             text = git.fig(text)
         print(text)
-                                                            
