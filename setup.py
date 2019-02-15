@@ -5,6 +5,7 @@ try:
 except NameError:
     pass
 
+from io import open
 from setuptools import setup, Extension, find_packages
 
 fp = open("README.md", "rt", encoding="utf-8")
