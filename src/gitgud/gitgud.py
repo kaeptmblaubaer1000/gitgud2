@@ -19,58 +19,58 @@ class git(object):
         fig = pyfiglet.Figlet()
         return fig.renderText(text)
 
-    @staticmethod
-    def gud():
-        args = git.parse_args("gud")
+    @classmethod
+    def gud(cls):
+        args = cls.parse_args("gud")
         name = args.name or "You"
         sup = args.super
         text = "{name} {verb} now {qual} gud!".format(name=name,
                                                       verb="is" if args.name else "are",
                                                       qual="super" if sup else "so")
         if sup:
-            text = git.fig(text)
+            text = cls.fig(text)
         print(text)
 
-    @staticmethod
-    def rekt():
-        args = git.parse_args("rekt")
+    @classmethod
+    def rekt(cls):
+        args = cls.parse_args("rekt")
         name = args.name or "You"
         sup = args.super
         text = "{name} got {qual}#rekt!".format(name=name,
                                                 qual="super " if sup else "")
         if sup:
-            text = git.fig(text)
+            text = cls.fig(text)
         print(text)
 
-    @staticmethod
-    def spooked():
-        args = git.parse_args("spooked")
+    @classmethod
+    def spooked(cls):
+        args = cls.parse_args("spooked")
         name = args.name or "You"
         sup = args.super
         text = "{name} got spooked by a scary skeleton!".format(name=name)
 
         if sup:
-            text = git.fig(text)
+            text = cls.fig(text)
         print(text)
 
-    @staticmethod
-    def job():
-        args = git.parse_args("job")
+    @classmethod
+    def job(cls):
+        args = cls.parse_args("job")
         name = args.name or "You"
         sup = args.super
         text = "{name} got a job in gitting #rekt!".format(name=name)
 
         if sup:
-            text = git.fig(text)
+            text = cls.fig(text)
         print(text)
 
-    @staticmethod
-    def money():
-        args = git.parse_args("money")
+    @classmethod
+    def money(cls):
+        args = cls.parse_args("money")
         name = args.name or "You"
         sup = args.super
         text = "{name} got money!".format(name=name)
 
         if sup:
-            text = git.fig(text)
+            text = cls.fig(text)
         print(text)
