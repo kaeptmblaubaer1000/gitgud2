@@ -6,7 +6,7 @@ import sys
 class git(object):
     @staticmethod
     def parse_args(cmdname):
-        parser = argparse.ArgumentParser(description="Have you been told to 'get %s'? Now you can!" % cmdname)
+        parser = argparse.ArgumentParser(description="Have you been told to 'git %s'? Now you can!" % cmdname)
         parser.add_argument("name", metavar="NAME", type=str, nargs="?", default=None,
                             help="who is getting %s" % cmdname)
         parser.add_argument("-s", "--super", action="store_true", default=False,
@@ -21,7 +21,7 @@ class git(object):
 
     @staticmethod
     def gud():
-        args = git.parse_args("good")
+        args = git.parse_args("gud")
         name = args.name or "You"
         sup = args.super
         text = "{name} {verb} now {qual} gud!".format(name=name,
