@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkaeptmblaubaer1000%2Fgitgud2.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkaeptmblaubaer1000%2Fgitgud2?ref=badge_shield)
+
 git gud m8!
 ===========
 
@@ -65,3 +67,7 @@ Just add the `--super` argument to add more awesome.
     gitting gud or gitting rekt.
 
 This is a fork of [fsufitch/git-gud](https://github.com/fsufitch/git-gud).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkaeptmblaubaer1000%2Fgitgud2.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkaeptmblaubaer1000%2Fgitgud2?ref=badge_large)
